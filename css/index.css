@@ -58,3 +58,10 @@ main {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.resume:hover {
+  background-color: blue;
+}
+.resume {
+  text-decoration: none;
+}
