@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: serif, Arial, Helvetica, sans-serif;
+}
+.row {
+  clear: both;
+}
+.column-head {
+  float: left;
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+
+img {
+  height: 50px;
+  width: 100px;
+}
+ul {
+}
