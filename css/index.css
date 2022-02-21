@@ -1,12 +1,15 @@
 * {
   box-sizing: border-box;
 }
+/* html, body {
+        height: 100%;
+      } */
 
-body {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
   padding: auto;
-  background-color: rgb(18, 94, 22);
+  height: 100%;
 }
 .head-col {
   float: left;
@@ -22,6 +25,10 @@ header nav a {
 header nav .title:hover {
 font-size: 1.3rem;
 }
+header nav div ul li:hover {
+  font-size: 1.3rem;
+  font-weight: 500 !important;
+  }
 
 ul {
   list-style-type: none;
@@ -30,70 +37,51 @@ ul li {
   display: inline;
   text-decoration: none;
 }
+header .bg-dark {
+  background-color: rgb(18, 94, 22) !important;
+}
+
+/* main section */
 
 main div h1 strong {
   font-family: "Times New Roman", Times, serif;
 }
 
-footer .small {
-  font-size: 0.9rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-footer hr {
-  border-top: 1px solid black;
-}
-header .bg-dark {
-  background-color: rgb(18, 94, 22) !important;
-}
-
 main {
   clear: both;
+
+}
+div .content {
+  height: 90vh;
 }
 
 main .landing {
   background: url("../images/cover.jpg") no-repeat fixed;
-}
-main .jumbotron {
-  height: 80vh;
+  height: 90vh;
   background-size: cover;
 }
 
-main .business, main .fitness, main .apartment {
-  height: 30vh;
-  background-color: rgb(88, 130, 143);
-  border-radius: 2px solid black;
+main .bg-light {
+  height: 20vh;
+  background-color: rgb(88, 130, 143) !important;
+  color: rgba(255, 255, 255, 0.76);
 }
-/* main .business {
-  background-image: url('../images/bw.png') no-repeat;
-  border-radius: 2px solid black;
-}
-main .fitness {
-  background-image: url('../images/ft.png') no-repeat;
-}
-main .apartment {
-  background-image: url('../images/af.png') no-repeat;
-} */
 
-main .text {
+main a{
+text-decoration: none;
+}
+
+main .bg-light:hover{
+  font-weight: bold;
   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} 
-
-main .text:hover{
-  background-color: rgba(54, 219, 103, 0.5);
-  font-size: 25px;
 }
+
+/* footer section */
 
 footer {
   background-color: rgb(18, 94, 22);
 }
+
 
 /* .resume:hover {
   background-color: blue;

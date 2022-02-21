@@ -7,40 +7,51 @@
     <link rel="icon" href="favicon.png" type="image/png"> 
      <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="css/large.css">
-    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-   
 <title>business-app | idoko</title>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand title" href="home.html">
-          <img src="images/logo.png" width="40" height="40" class="d-inline-block align-top" alt="nd brand logo">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand title" href="home.html"
+          ><img
+            src="images/logo.png"
+            alt="nd brand logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
           Idoko Nduka Kenneth
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-          <ul class="collapse navbar-collapse navbar-nav mr-auto mt-2 mt-lg-0 nav justify-content-end" id="navbarTogglerDemo01">
-            <li class="nav-item mr-lg-3">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-1">
               <a class="nav-link" href="home.html">Home</a>
             </li>
-            <li class="nav-item mr-lg-3 active">
+            <li class="nav-item me-1 active">
               <a class="nav-link" href="work.html">Work</a>
             </li>
-            <li class="nav-item mr-lg-3">
+            <li class="nav-item me-1">
               <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
-      </nav>
-      
-    </header>
+        </div>
+      </div>
+    </nav>
+  </header>
    
     <main>
         <div class="container-fliud mt-4">
@@ -90,13 +101,13 @@
               <h3 class="text-primary">User research: pain points</h3>
             </div>
             <div class="col-12 col-md-3">
-              <h3 class="text-info">Time</h3>
-              <p>Write one to two sentences reflecting on the pain point listed above and how it will guide designs moving forward</p>
-            </div>
-            <div class="col-12 col-md-3">
               <h3 class="text-info">Accesibility</h3>
-              <p>Write one to two sentences reflecting on the pain point listed above and how it will guide designs moving forward</p>
+              <p>Unemployed graduates that do not have money to start a business and want a medium to learn some skills.
+              </p>
+              <p>Working individuals that need another means of income to supplement their existing job.
+              </p>
             </div>
+            
           </div>
           <div class="row mt-4 mx-2">
             <div class="col-12 col-md-4">
@@ -257,9 +268,14 @@
         
         </div>
     </main>
-    <footer class='col mt-5'>
-        <hr>
-        <p class='text-center text-white small large'>&copy; 2021. All Right Reserved to Idoko Nduka Kenneth</p>
+    <footer class="footer mt-auto">
+      <div class="container d-flex justify-content-center align-items-center">
+        <span class="text-white text-center"
+          >&copy; 2021. All Right Reserved to Idoko Nduka Kenneth</span
+        >
+      </div>
     </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -4,8 +4,21 @@
     font-family: "Times New Roman", Times, serif;
   }
 
-  footer .large {
+  main .bg-light {
+    height: 30vh;
+    font-size: 1.5rem;
+  }
+
+  div .about {
+    height: 90vh;
+  }
+
+  /* main .container {
+    height: 85vh;
+  } */
+
+  /* footer span {
     font-size: 1.5rem;
     font-family: Georgia, "Times New Roman", Times, serif;
-  }
+  } */
 }
